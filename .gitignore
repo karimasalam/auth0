@@ -3,3 +3,5 @@
 ################################################################################
 
 /coreapi/.vs/coreapi
+/coreapi/coreapi/bin/Debug/netcoreapp3.1
+/coreapi/coreapi/obj

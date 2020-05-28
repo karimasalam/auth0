@@ -1,0 +1,12 @@
+<button
+    *ngIf="!auth.isAuthenticatedLock()"
+  (click)="auth.loginLock()">
+  Sign Up or Login
+</button>
+
+<button
+  *ngIf="auth.isAuthenticatedLock()"
+  (click)="auth.logoutLock()">
+  Logout
+</button>
+
